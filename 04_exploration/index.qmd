@@ -146,19 +146,20 @@ Now it's your turn! Explore the data yourself:
 What is the geographic scale of our data? (hint: geoscale column)
 
 ```{r}
-
+table(fossils$geogscale)
 ```
 
 What is the stratigraphic scale of our data? (hint: stratscale column)
 
 ```{r}
-
+str(fossils$stratscale)
+table(fossils$stratscale)
 ```
 
 What proportion of our occurrences are marine crocodiles? (hint: taxon_environment column)
 
 ```{r}
-
+length(fossils$taxon_environment[fossils$taxon_environment == "marine"])/length(fossils$taxon_environment) * 100
 ```
 
 # Data cleaning
