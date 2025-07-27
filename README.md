@@ -1,4 +1,6 @@
 # Palaeoverse Workshop Template
+Martijn van der Meer, Deacon of Ducks
+
 
 ## Purpose
 
